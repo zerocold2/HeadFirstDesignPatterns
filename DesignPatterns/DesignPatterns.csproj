@@ -42,7 +42,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Chap.2 The Observer Pattern\WeatherData.cs" />
+    <Compile Include="Behavioral_Pattern\Observer\Display.cs" />
+    <Compile Include="Behavioral_Pattern\Observer\IObserver.cs" />
+    <Compile Include="Behavioral_Pattern\Observer\ISubject.cs" />
+    <Compile Include="Behavioral_Pattern\Observer\WeatherData.cs" />
+    <Compile Include="Behavioral_Pattern\Strategy\AFly.cs" />
+    <Compile Include="Behavioral_Pattern\Strategy\Aquack.cs" />
+    <Compile Include="Behavioral_Pattern\Strategy\BFly.cs" />
+    <Compile Include="Behavioral_Pattern\Strategy\Bquack.cs" />
+    <Compile Include="Behavioral_Pattern\Strategy\Duck.cs" />
+    <Compile Include="Behavioral_Pattern\Strategy\IFlyBehavioural.cs" />
+    <Compile Include="Behavioral_Pattern\Strategy\IQuackBehavioural.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
