@@ -53,6 +53,12 @@
     <Compile Include="Behavioral_Pattern\Strategy\Duck.cs" />
     <Compile Include="Behavioral_Pattern\Strategy\IFlyBehavioural.cs" />
     <Compile Include="Behavioral_Pattern\Strategy\IQuackBehavioural.cs" />
+    <Compile Include="Creational_Pattern\Factory\FactoryMethod\AbstractCreator.cs" />
+    <Compile Include="Creational_Pattern\Factory\FactoryMethod\ConcreteCreator.cs" />
+    <Compile Include="Creational_Pattern\Factory\FactoryMethod\IProduct.cs" />
+    <Compile Include="Creational_Pattern\Factory\FactoryMethod\ProcuctB.cs" />
+    <Compile Include="Creational_Pattern\Factory\FactoryMethod\Product.cs" />
+    <Compile Include="Creational_Pattern\Factory\FactoryMethod\ProductA.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Structure_Pattern\Decorator\AbstractBeverage.cs" />
@@ -60,6 +66,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Creational_Pattern\Factory\AbstractFactory\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Creational_Pattern\Factory\FactoryMethod\Factory Method.txt" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
