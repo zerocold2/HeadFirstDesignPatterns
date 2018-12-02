@@ -53,6 +53,15 @@
     <Compile Include="Behavioral_Pattern\Strategy\Duck.cs" />
     <Compile Include="Behavioral_Pattern\Strategy\IFlyBehavioural.cs" />
     <Compile Include="Behavioral_Pattern\Strategy\IQuackBehavioural.cs" />
+    <Compile Include="Creational_Pattern\Factory\AbstractFactory\ConcreteFactoryCreator1.cs" />
+    <Compile Include="Creational_Pattern\Factory\AbstractFactory\ConcreteFactoryCreator2.cs" />
+    <Compile Include="Creational_Pattern\Factory\AbstractFactory\FactoryCreator.cs" />
+    <Compile Include="Creational_Pattern\Factory\AbstractFactory\IProductA.cs" />
+    <Compile Include="Creational_Pattern\Factory\AbstractFactory\IProductB.cs" />
+    <Compile Include="Creational_Pattern\Factory\AbstractFactory\ProductA1.cs" />
+    <Compile Include="Creational_Pattern\Factory\AbstractFactory\ProductA2.cs" />
+    <Compile Include="Creational_Pattern\Factory\AbstractFactory\ProductB1.cs" />
+    <Compile Include="Creational_Pattern\Factory\AbstractFactory\ProductB2.cs" />
     <Compile Include="Creational_Pattern\Factory\FactoryMethod\AbstractCreator.cs" />
     <Compile Include="Creational_Pattern\Factory\FactoryMethod\ConcreteCreator.cs" />
     <Compile Include="Creational_Pattern\Factory\FactoryMethod\IProduct.cs" />
@@ -66,11 +75,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
-    <Folder Include="Creational_Pattern\Factory\AbstractFactory\" />
-  </ItemGroup>
-  <ItemGroup>
+    <Content Include="Creational_Pattern\Factory\AbstractFactory\Abstract Factory.txt" />
     <Content Include="Creational_Pattern\Factory\FactoryMethod\Factory Method.txt" />
+    <Content Include="Creational_Pattern\Singleton\Singleton.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
