@@ -84,8 +84,8 @@
   <ItemGroup />
   <ItemGroup>
     <None Include="Behavioral_Pattern\Command\Command Pattern.md" />
-    <Content Include="Creational_Pattern\Factory\AbstractFactory\Abstract Factory.txt" />
-    <Content Include="Creational_Pattern\Factory\FactoryMethod\Factory Method.txt" />
+    <None Include="Creational_Pattern\Factory\AbstractFactory\Abstract Factory.md" />
+    <None Include="Creational_Pattern\Factory\FactoryMethod\Factory Method.md" />
     <Content Include="Creational_Pattern\Singleton\Singleton.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
