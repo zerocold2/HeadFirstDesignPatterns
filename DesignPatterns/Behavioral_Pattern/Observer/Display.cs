@@ -3,7 +3,7 @@
     /// <summary>
     /// This's Concrete Observer Class
     /// </summary>
-    public class Display : IObserver
+    public class Display : IObserver 
     {
         //It could be replaced with any abstract interface for showing data
         private WeatherData _weatherData;

@@ -42,6 +42,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Behavioral_Pattern\Command\CommandSwitchOff.cs" />
+    <Compile Include="Behavioral_Pattern\Command\CommandSwitchOn.cs" />
+    <Compile Include="Behavioral_Pattern\Command\ICommand.cs" />
+    <Compile Include="Behavioral_Pattern\Command\Invoker.cs" />
+    <Compile Include="Behavioral_Pattern\Command\Receiver.cs" />
     <Compile Include="Behavioral_Pattern\Observer\Display.cs" />
     <Compile Include="Behavioral_Pattern\Observer\IObserver.cs" />
     <Compile Include="Behavioral_Pattern\Observer\ISubject.cs" />
@@ -78,6 +83,7 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
+    <Content Include="Behavioral_Pattern\Command\Command Pattern.txt" />
     <Content Include="Creational_Pattern\Factory\AbstractFactory\Abstract Factory.txt" />
     <Content Include="Creational_Pattern\Factory\FactoryMethod\Factory Method.txt" />
     <Content Include="Creational_Pattern\Singleton\Singleton.txt" />

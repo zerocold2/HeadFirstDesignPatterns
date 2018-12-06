@@ -4,6 +4,7 @@ using System.Collections.Specialized;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using DesignPatterns.Behavioral_Pattern.Command;
 using DesignPatterns.Behavioral_Pattern.Observer;
 using DesignPatterns.Behavioral_Pattern.Strategy;
 using DesignPatterns.Creational_Pattern.Factory.FactoryMethod;
@@ -42,12 +43,22 @@ namespace DesignPatterns
             //Console.WriteLine(beverage2.Cost());//1+4+4+6
 
 
-            //Factory Method
-            AbstractCreator creator = new ConcreteCreator();
-            IProduct product = creator.GetProduct(Product.ProductA);
-            Console.WriteLine(product.GetName());
+            //Factory Method Design Pattern
+            //AbstractCreator creator = new ConcreteCreator();
+            //IProduct product = creator.GetProduct(Product.ProductA);
+            //Console.WriteLine(product.GetName());
 
 
+            //Command Pattern
+            //This class is represented as the client for the command pattern client
+            Receiver light = new Receiver();
+            CommandSwitchOff switchOff = new CommandSwitchOff(light);
+            CommandSwitchOn switchOn = new CommandSwitchOn(light);
+            
+            //The invoker should not tightly coupled with the light 
+            Invoker invoker = new Invoker(switchOn, switchOff);
+            invoker.ClickOn();
+            invoker.ClickOff();
 
             Console.ReadLine();
         }

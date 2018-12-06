@@ -24,7 +24,6 @@ namespace DesignPatterns.Creational_Pattern.Singleton
          * It is typically used to reduce locking overhead when implementing "Lazy Initialization" in multithread enviroment, specially in singleton avoid initializing a value untill the first time it's accessed
         */
         private static object lockObject = new object();
-
         public static Singleton GetSafeThreadSingleton()
         {
             if (_singleton == null)
