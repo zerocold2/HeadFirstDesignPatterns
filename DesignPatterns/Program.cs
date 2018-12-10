@@ -8,6 +8,7 @@ using DesignPatterns.Behavioral_Pattern.Command;
 using DesignPatterns.Behavioral_Pattern.Observer;
 using DesignPatterns.Behavioral_Pattern.Strategy;
 using DesignPatterns.Creational_Pattern.Factory.FactoryMethod;
+using DesignPatterns.Structure_Pattern.Adapter;
 using DesignPatterns.Structure_Pattern.Decorator;
 
 namespace DesignPatterns
@@ -49,16 +50,20 @@ namespace DesignPatterns
             //Console.WriteLine(product.GetName());
 
 
-            //Command Pattern
-            //This class is represented as the client for the command pattern client
-            Receiver light = new Receiver();
-            CommandSwitchOff switchOff = new CommandSwitchOff(light);
-            CommandSwitchOn switchOn = new CommandSwitchOn(light);
-            
-            //The invoker should not tightly coupled with the light 
-            Invoker invoker = new Invoker(switchOn, switchOff);
-            invoker.ClickOn();
-            invoker.ClickOff();
+            ////Command Pattern
+            ////This class is represented as the client for the command pattern client
+            //Receiver light = new Receiver();
+            //CommandSwitchOff switchOff = new CommandSwitchOff(light);
+            //CommandSwitchOn switchOn = new CommandSwitchOn(light);            
+            ////The invoker should not tightly coupled with the light 
+            //Invoker invoker = new Invoker(switchOn, switchOff);
+            //invoker.ClickOn();
+            //invoker.ClickOff();
+
+            //Adapter Pattern
+            //This class is represented as the client 
+            ITarget target = new Adapter(new Adaptee());
+            target.Request();
 
             Console.ReadLine();
         }
