@@ -11,6 +11,8 @@
 	By wrapping the object that has incompatible interface with an object that implements the correct one
 
 # Difference between Adapter, Decorator and Facade.
-  - Decorator -> changes the behaviour of one class by adding another class to add another behaviour.
-  - Adapter   -> Make classes works together, without changes it's behaviours
-  - Facade    -> Alters an interface.
+  - Decorator -> * Changes the behaviour of one class by adding another class to add another behaviour
+				 * Converts ont interface to another.
+  - Adapter   -> * Make classes works together, without changes it's behaviours 
+				 * Doesn't alters interfaces but adding responsibility
+  - Facade    -> Alters an interface, make and interface simpler
