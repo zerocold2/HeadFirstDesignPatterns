@@ -1,6 +1,6 @@
 ﻿# Adapter
-	Convert interface of classes into another interface classes that client wants.
-	Lets classes works together that couldn't otherwise because of incompatible interfaces.
+  Convert interface of classes into another interface classes that client wants.
+  Lets classes works together that couldn't otherwise because of incompatible interfaces.
 
 # How client uses Adapter 
   - Client making a request on Adapter, by calling a method on it using the target interface.
