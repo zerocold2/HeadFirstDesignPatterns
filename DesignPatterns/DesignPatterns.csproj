@@ -80,10 +80,20 @@
     <Compile Include="Structure_Pattern\Adapter\Adapter.cs" />
     <Compile Include="Structure_Pattern\Adapter\ITarget.cs" />
     <Compile Include="Structure_Pattern\Decorator\AbstractBeverage.cs" />
+    <Compile Include="Structure_Pattern\Facade\ConcretHomeTheater.cs" />
+    <Compile Include="Structure_Pattern\Facade\IAmplifier.cs" />
+    <Compile Include="Structure_Pattern\Facade\ICdPlayer.cs" />
+    <Compile Include="Structure_Pattern\Facade\IDvdPlayer.cs" />
+    <Compile Include="Structure_Pattern\Facade\IHomeTheater.cs" />
+    <Compile Include="Structure_Pattern\Facade\IProjector.cs" />
+    <Compile Include="Structure_Pattern\Facade\IScreen.cs" />
+    <Compile Include="Structure_Pattern\Facade\ITheaterLight.cs" />
+    <Compile Include="Structure_Pattern\Facade\ITuner.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="Structure_Pattern\Adapter\Adapter.md" />
+    <None Include="Structure_Pattern\Facade\Facade.md" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
