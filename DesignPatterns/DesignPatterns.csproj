@@ -94,6 +94,7 @@
     <None Include="App.config" />
     <None Include="Structure_Pattern\Adapter\Adapter.md" />
     <None Include="Structure_Pattern\Facade\Facade.md" />
+    <None Include="Structure_Pattern\Proxy\Proxy.md" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
